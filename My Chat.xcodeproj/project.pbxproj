@@ -15,6 +15,7 @@
 		5EDE81C5253ED53500902CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE81C3253ED53500902CEF /* LaunchScreen.storyboard */; };
 		5EDE81D0253ED53500902CEF /* My_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE81CF253ED53500902CEF /* My_ChatTests.swift */; };
 		5EDE81DB253ED53500902CEF /* My_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE81DA253ED53500902CEF /* My_ChatUITests.swift */; };
+		5EDE81EC253EFDAF00902CEF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE81EB253EFDAF00902CEF /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5EDE81D6253ED53500902CEF /* My ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDE81DA253ED53500902CEF /* My_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_ChatUITests.swift; sourceTree = "<group>"; };
 		5EDE81DC253ED53500902CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDE81EB253EFDAF00902CEF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5EDE81BA253ED53300902CEF /* SceneDelegate.swift */,
 				5EDE81BC253ED53300902CEF /* ViewController.swift */,
 				5EDE81BE253ED53300902CEF /* Main.storyboard */,
+				5EDE81EB253EFDAF00902CEF /* NavigationController.swift */,
 				5EDE81C1253ED53500902CEF /* Assets.xcassets */,
 				5EDE81C3253ED53500902CEF /* LaunchScreen.storyboard */,
 				5EDE81C6253ED53500902CEF /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EDE81BD253ED53300902CEF /* ViewController.swift in Sources */,
+				5EDE81EC253EFDAF00902CEF /* NavigationController.swift in Sources */,
 				5EDE81B9253ED53300902CEF /* AppDelegate.swift in Sources */,
 				5EDE81BB253ED53300902CEF /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDR7T3U5EH;
 				INFOPLIST_FILE = "My Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDR7T3U5EH;
 				INFOPLIST_FILE = "My Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
